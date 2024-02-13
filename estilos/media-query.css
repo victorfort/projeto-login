@@ -22,6 +22,14 @@ Extra large devices (desktops grandes): 1200px ou mais*/
         width: 70%;
     }
     
+    div#formulario > h1 {
+        font-size: 1.5em;
+    }
+    div#formulario >p {
+        font-size: 1em;
+        
+    
+    }
 }
 
 @media screen and (min-width: 992px){
@@ -39,5 +47,13 @@ Extra large devices (desktops grandes): 1200px ou mais*/
     section#login > div#formulario{
         float: right; 
         width: 70%;
+    }
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+    div#formulario >p {
+        font-size: 1.2em;
+        
+    
     }
 }
