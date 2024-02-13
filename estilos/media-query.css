@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/*Extra small devices (telefones pequenos): Menos de 576px
+Small devices (telefones): 576px ou mais
+Medium devices (tablets): 768px ou mais
+Large devices (desktops): 992px ou mais
+Extra large devices (desktops grandes): 1200px ou mais*/
+
+@media screen and (min-width: 768px ) and (max-width: 992px) {
+    section#login{
+        
+        width: 80vw;
+    }
+    section#login > div#imagem{ 
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    
+    section#login > div#formulario{
+        float: right; /*colocando um ao lado do outro precisa especificar
+        as dimenções*/
+        width: 70%;
+    }
+    
+}
+
+@media screen and (min-width: 992px){
+
+
+    section#login{
+        width: 900px;
+    }
+
+    section#login > div#imagem{ 
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    section#login > div#formulario{
+        float: right; 
+        width: 70%;
+    }
+}
