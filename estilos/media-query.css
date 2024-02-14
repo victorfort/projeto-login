@@ -7,7 +7,7 @@ Extra large devices (desktops grandes): 1200px ou mais*/
 
 @media screen and (min-width: 768px ) and (max-width: 992px) {
     section#login{
-        
+        height: 350px;
         width: 80vw;
     }
     section#login > div#imagem{ 
